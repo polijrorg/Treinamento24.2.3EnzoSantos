@@ -1,14 +1,21 @@
-import ExampleComponent from 'components/ExampleComponent';
 import React from 'react';
-import * as S from './styles';
+import { BarraLateralEsquerda } from 'components/BarraLateralEsquerda';
+import { BarraLateralDireita } from 'components/BarraLateralDireita';
+import { Background } from 'components/Background';
 
-const ExampleTemplate = () => {
+const HomeTemplate = () => {
     return (
-        <S.Container>
-            <S.Title>Treinamento Introdutório de Front</S.Title>
-            <S.Comment>Template criado em Março de 2023</S.Comment>
-            <ExampleComponent width="128px" />
-        </S.Container>
+        <>
+            <head>
+                <link
+                    href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+                    rel="stylesheet"
+                />
+            </head>
+            <Background />
+            <BarraLateralEsquerda />
+            <BarraLateralDireita />
+        </>
     );
 };
-export default ExampleTemplate;
+export default HomeTemplate;
