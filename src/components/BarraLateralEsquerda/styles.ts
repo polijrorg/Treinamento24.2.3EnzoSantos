@@ -29,19 +29,30 @@ export const StyledBarraTitulo = styled.div`
     letter-spacing: 6px;
 `;
 
-export const StyledTexto = styled.text`
+export const StyledTextoMenus = styled.div`
     display: flex;
     width: 179px;
     height: 57px;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
     flex-shrink: 0;
     color: #ecedee;
-
-    /* Subtitle/Bold */
     font-family: Nunito;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    letter-spacing: 0px;
+    margin-left: 16px;
+    text-align: left;
+    place-items: center;
+`;
+
+export const CaixaSelecao = styled.div`
+    display: flex;
+    width: 95%;
+    padding: 0px 16px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 0px 80px 80px 0px;
+    background: #3e63dd;
 `;

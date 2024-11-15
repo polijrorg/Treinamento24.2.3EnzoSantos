@@ -1,4 +1,5 @@
 import React from 'react';
+import Divider from 'components/Divider';
 import * as S from './styles';
 
 export const BarraLateralDireita: React.FC = () => {
@@ -16,6 +17,54 @@ export const BarraLateralDireita: React.FC = () => {
                     }}
                 />
                 Pius em alta
+                <div>
+                    <Divider
+                        color="#4C5155"
+                        thickness="1px"
+                        margin="20px 0"
+                        width="92%"
+                    />
+                </div>
+                <div>
+                    <Divider
+                        color="#4C5155"
+                        thickness="1px"
+                        margin="173px 0"
+                        width="92%"
+                    />
+                </div>
+                <div>
+                    <Divider
+                        color="#4C5155"
+                        thickness="1px"
+                        margin="173px 0"
+                        width="92%"
+                    />
+                </div>
+                <div>
+                    <Divider
+                        color="#4C5155"
+                        thickness="1px"
+                        margin="173px 0"
+                        width="92%"
+                    />
+                </div>
+                <div>
+                    <Divider
+                        color="#4C5155"
+                        thickness="1px"
+                        margin="173px 0"
+                        width="92%"
+                    />
+                </div>
+                <div>
+                    <Divider
+                        color="#4C5155"
+                        thickness="1px"
+                        margin="173px 0"
+                        width="92%"
+                    />
+                </div>
             </S.StyledBarraTitulo>
         </S.StyledBarraLateral>
     );

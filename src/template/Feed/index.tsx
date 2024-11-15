@@ -2,6 +2,7 @@ import React from 'react';
 import { BarraLateralEsquerda } from 'components/BarraLateralEsquerda';
 import { BarraLateralDireita } from 'components/BarraLateralDireita';
 import { Background } from 'components/Background';
+import Piu from 'components/Piu';
 
 const HomeTemplate = () => {
     return (
@@ -12,7 +13,9 @@ const HomeTemplate = () => {
                     rel="stylesheet"
                 />
             </head>
-            <Background />
+            <Background>
+                <Piu />
+            </Background>
             <BarraLateralEsquerda />
             <BarraLateralDireita />
         </>
